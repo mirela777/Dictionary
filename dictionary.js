@@ -6,7 +6,6 @@ var word = document.getElementById("text").value;
 
 function search(){
     var w = document.getElementById("text2").value;
-    var x = 0;
     var txt ;
     words.forEach(function(words){
         if(w === words){
